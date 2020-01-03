@@ -18,6 +18,7 @@ namespace ConsoleGraphTest
         {
             try
             {
+                //congfig builder
                 var config = new ConfigurationBuilder()
                 .SetBasePath(System.IO.Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", false, true)
